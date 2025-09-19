@@ -58,12 +58,12 @@ def delete_user(user_id: int):
             print('user mavjud emas')
 
 def main():
-    # create_user()
-    # create_task(1)
-    # get_users()
-    # get_tasks(2)
-    # update_user(1)
-    delete_user(1)
+    create_user()
+    create_task(1)
+    get_users()
+    get_tasks(2)
+    update_user(1)
+    # delete_user(1)
 
 if __name__ == "__main__":
     main()
